@@ -1,0 +1,27 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#topbar {
+    background-color: pink;
+}
+
+#sidebar {
+    background-color: aqua;
+}
+
+#content {
+    background-color: bisque;
+}
+
+#gridContainer {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 25% 25% 25% 25%;
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+}
